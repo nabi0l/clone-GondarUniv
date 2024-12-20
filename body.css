@@ -1,0 +1,30 @@
+.news-div{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    margin: 60px;
+    
+}
+.news{
+    margin: 30px;
+}
+.news p{
+    color: #1e73be;
+}
+h1{
+    color: #1e73be;
+    text-align: center;
+}
+h2{
+    text-align: center;
+
+}
+.news-div2{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    margin: 60px;
+    
+}
+footer{
+    background-color: #1e73be;
+    height: 600px;
+}

@@ -1,0 +1,175 @@
+.contact-info{
+    overflow: hidden;
+    background-color:#0763cc ;
+}
+body{margin: 0;}
+.contact-info div{
+    float: left;
+    overflow: hidden;
+}
+.c-inf1{
+    width: 50%;
+    overflow: hidden;
+    padding: 14px 16px;
+    text-align: center;
+}
+.c-inf2{
+    float: right;
+    width: 25%;
+    overflow: hidden;
+    text-align: center;
+    padding: 20px 16px 16px 14px;
+}
+.search{
+    float: right;
+    width: 20%;
+    overflow: hidden;
+    padding: 14px 16px;
+    text-align: center;
+}
+.search input, .search button{
+    height: 30px;
+}
+.contact-info a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin: 14px 16px;
+}
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+.navbar{
+    background-color: #f2f2f2;
+    overflow: hidden;
+    height: 70%;
+    text-align: center;
+}
+.navbar a,.navbar button{
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 14px 16px;
+}
+.navbar a:hover,.navbar button:hover{
+    color: #0763cc;
+
+}
+.navbar div{
+    float: left;
+    margin: auto;
+    padding: 14px 16px;
+    background-color: inherit;
+}
+.nav_content{
+    width: 75%;
+}
+
+.uog_logo{
+    width: 20%;
+}
+.uog_logo img{
+    width: 300px;
+    height: 60px;
+}
+.dropdown .dropdown-content{
+    display: none;
+    position: absolute;
+    float: none;
+}
+.dropdown-content a{
+    display: block;
+    text-align: left;
+    max-width: 160px;
+}
+.dropdown-content .dropside{
+    display: block;
+    float: none;
+    text-align: left;
+}
+.dropbtn{
+    border: none;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+.dropside {
+
+}
+.dropside .dropside-content{
+    display: none;
+    float: none;
+    position: absolute;
+    margin: 0;
+    left: 85%;
+    /* margin-left: 80%;
+    margin-bottom: 100px; */
+    overflow: hidden;
+}
+.dropside:hover .dropside-content{
+    display: block; 
+} 
+/* ///////////////////////////////////////////////////////////////////////////////////// */
+*{box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+#slimg{vertical-align: middle;
+width: 100%;
+}
+.myslide{display: none;}
+#sel1{display: none;
+width: 100%;}
+#sel1:hover{display: inline-block;}
+.slide-container{
+    width: 100%;
+    position: absolute;
+    margin-top: 0;
+    z-index: -1;
+}
+
+.prev,.next{
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-size: 30px;
+    font-weight:bold;
+    border-radius: 0 3px 3px 0;
+    transition: 0.6s ease;
+    user-select: none;
+}
+.next{
+    /* margin-left: 100%; */
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+.prev:hover,.next:hover{background-color: rgba(0,0,0,0.8);}
+.text{
+    color: #f2f2f2;
+    padding:20px;
+    padding-top: 45px;
+    width: 500px;
+    height: 100px;
+    /* border-radius: 15px; */
+    background-color: rgba( 0, 0,0 , 0.8 );;
+    position: relative;
+    bottom: 170px;
+    margin: 5px;
+}
+.texts{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    justify-content: center;
+    border-bottom: 2px solid #f5f5f5;
+}
+#span:hover{color: yellow;}
+/* //////////////////////////////////////////////////////////////////// */
+.allcontent{
+    position: absolute;
+    top: 180%;
+}
